@@ -1,0 +1,42 @@
+.utility-btn {
+    background: none;
+    border: none;
+    color: #1f9751;
+    cursor: pointer;
+    border-radius: 50%;
+}
+
+.utility-btn:hover {
+    background: #f2f2f2;
+}
+
+.icon {
+    height: 3em;
+    width: 3em;
+}
+
+.bottom-utility {
+    position: absolute;
+    right: 0;
+    bottom: 1rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.project-elem {
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 15rem;
+    position: relative;
+    font-family: 'Londrina Sketch', cursive;
+    box-shadow: 4px 4px 7px rgba(14, 13, 13, 0.096);
+    border-radius: 10px;
+}
+
+.project-elem:hover {
+    filter: none;
+    -webkit-filter: grayscale(1);
+    box-shadow: 4px 4px 7px rgba(14, 13, 13, 0.801);
+}

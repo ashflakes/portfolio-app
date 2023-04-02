@@ -1,0 +1,39 @@
+.sidebar {
+  padding-left: 30px;
+  font-family: 'poppins';
+  position: fixed;
+}
+.sidebar form {
+  padding: 20px;
+  border-radius: 10px;
+}
+.sidebar input {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  margin-top: 8px;
+  box-sizing: border-box;
+  border: 0;
+  border-radius: 4px;
+  color: #555;
+  font-size: 1em;
+}
+.sidebar label {
+  margin: 0 auto 20px;
+  display: block;
+  color: #fff;
+}
+
+/* input[type="file"] {
+} */
+
+
+
+
+
+
+
+
+
+
+  
