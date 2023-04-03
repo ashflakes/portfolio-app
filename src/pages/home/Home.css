@@ -13,7 +13,7 @@
 .side-content{
     position: fixed;
     height: 100vh;
-    width: 5rem;
+    width: 4%;
     display: flex;
     flex-direction: column;
     background-image: linear-gradient(#20262E, #0a0b0e);
@@ -22,15 +22,11 @@
 }
 
 .left{
-   
     left: 10%;
-    
 }
 
 .right {
-   
     right: 10%;
-   
 }
 
 .decoration {
@@ -40,9 +36,24 @@
 }
 
 .main-content {
-    width: 70%;
     padding: 4rem 2rem;
+    border: 0 4rem;
+    width: 70%;
     background-image: linear-gradient(#2D2727, #F5E9CF);
+}
+
+@media screen and (max-width: 640px) {
+    .main-content {
+        width: 100%;
+    }
+
+    .left {
+        left: 0;
+    }
+
+    .right {
+        right: 0;
+    }
 }
 
 .main-content .grid-view {
