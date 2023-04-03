@@ -1,4 +1,4 @@
-portfolio app developed with React;
+portfolio app developed with React.js;
 
 hosted on firebase: https://portfolio-app-64d4d.web.app/
 
