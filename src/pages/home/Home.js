@@ -54,10 +54,9 @@ const Home = () => {
 
   return (
     <div className='content' style={{ }}>
-      <div className='side-content'>
+      <div className='side-content left'>
         <button className='top-button' ><img src={nameLogo} alt='contact-icon' /></button>
         <div className='decoration'>
-          
         </div>
         <button className='bottom-button' onClick={handleViewSidebar}><img src={addIcon} alt='add-project-icon' /></button>
       </div>
@@ -77,10 +76,9 @@ const Home = () => {
             })}
         </ul>
         </div>
-      <div className='side-content'>
+      <div className='side-content right'>
         <button id='toggle-display' className='top-button' onClick={() => handleDisplayToggle()}><img style={{ scale: '80%' }} src={viewIcon} alt='view-icon' /></button>
         <div className='decoration'>
-          
         </div>
         <button className='bottom-button' ><a href='https://github.com/ashflakes/' target='_blank'><img src={githubIcon} alt='github-icon' /></a></button>
       </div>
