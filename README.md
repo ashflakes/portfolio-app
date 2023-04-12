@@ -1,6 +1,9 @@
 portfolio app developed with React.js;
 
+to be integrated in https://github.com/ashflakes/showcase-app 
+
 hosted on firebase: https://portfolio-app-64d4d.web.app/
+
 
 
 Original Assignment Requirements:
